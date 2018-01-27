@@ -1,0 +1,82 @@
+body {
+	margin:0px;
+	padding:0px;
+	background-attachment: scroll;
+	background-color: rgb(56, 87, 167);
+	background-repeat: repeat-x;	
+	background-position: center top;
+	justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 100vh;
+    font: Bookman Old Style;
+}
+
+#top_bar {
+	height: 560px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top_image {
+	background-image: url(../images/blue-geometric.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: local;
+	height: 560px;
+}
+
+#text_form {
+	font: 50px Bookman Old Style;
+	text-align: center;
+	color: rgb(55, 83, 146);
+	width: 44%;
+    padding-top: 200px;
+    padding-right: 28%;
+    padding-bottom: 0px;
+    padding-left: 28%;	    
+    background-color: transparent;	
+}
+
+#line {
+	background-color: rgb(173, 206, 224);
+    padding-top: 20px;
+    box-shadow: inset 0px -17px 20px 0px #3857a7;
+}
+
+#content_container {	
+	width: 98%;
+    padding-right: 1%;
+    padding-left: 1%;    
+	height: fit-content;
+	background-position: center top;
+}
+
+#parseImage {
+	font: 17px Caveat, cursive;
+	color: rgb(157, 190, 216);
+	text-align: center;
+	/*width: fit-content;	*/
+	width: 320px;
+	display: inline-block;
+	padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+
+#parseImage p{
+	margin-bottom: 0px;
+    margin-top: 0px;
+    width: 300px;
+    box-shadow: inset 0 0 20px 0px rgb(157, 190, 216);
+    margin-left: 10px;
+}
+
+#bottom_bar {
+	background-color: rgb(173, 206, 224);
+    padding-top: 20px;
+    box-shadow: inset 0px 17px 20px 0px #3857a7;
+}
+
+
